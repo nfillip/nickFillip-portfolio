@@ -1,0 +1,76 @@
+h1 {
+    font-size: 6rem;
+    color: var(--pink);
+    text-decoration: underline
+}
+h2 {
+    font-size: 4rem;
+    color: var(--pink);
+   
+}
+h3 {
+    font-size: 3rem;
+    color: var(--pink);
+    text-decoration: underline
+}
+ul {
+    font-size: 2.5rem;
+    color: var(--pink);
+    list-style: none;
+    text-decoration: none;
+    list-style-position: none;
+    padding: 0px;
+    margin: 0px
+    
+}
+li {
+    font-size: 2rem;
+    color: white;
+    padding-left: 2rem;
+   
+}
+p {
+    font-size: 2.5rem;
+}
+.verbiageDiv {
+    border: .2rem solid var(--pink);
+    border-radius: 2rem
+}
+
+.carouselPic {
+    height: 80vh;
+    width: auto;
+    border-radius: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pink)
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--darkPink)
+
+}
+.listItem {
+    text-decoration: none;
+    
+}
+.resumeButton {
+    background-color: var(--pink);
+    min-width: 20rem;
+    min-height: 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+.resumeButton:hover {
+    scale: 1.1;
+    background-color: var(--darkPink);
+}
+
+.carouselDiv {
+    border: .2rem solid green;
+    width: 59%;
+}

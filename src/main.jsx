@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import WorkExperience from './pages/Work.jsx';
+import Education from './pages/Education.jsx'
 //style
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import './index.css'
+import './styles/Main.css'
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -23,6 +22,18 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+      {
+        path: '/About',
+        element: <About />,
+      },
+      {
+        path: '/WorkExperience',
+        element: <WorkExperience />
+      },
+      {
+        path: '/Education',
+        element: <Education />
+      }
     ],
   },
 ]);

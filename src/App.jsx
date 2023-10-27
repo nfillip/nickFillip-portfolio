@@ -1,7 +1,8 @@
 import { Outlet } from 'react-router-dom';
 import NavTab from './components/NavTab';
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import FooterTab from './components/FooterTab';
+import './styles/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Outlet />
       </main>
+      <FooterTab />
     </>
   )
 }

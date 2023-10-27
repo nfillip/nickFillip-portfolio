@@ -1,0 +1,20 @@
+
+:root {
+    --pink: #ea999e;
+    --darkPink: #a56b6f;
+    --darkBlue: #02142d;
+      --picBlue: #031E44;
+   }
+.navItem {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+}
+.navItem:hover {
+    color: var(--pink);
+}
+.navMainDiv {
+    min-height: 10vh;
+}
+

@@ -1,0 +1,28 @@
+.profilePic {
+height: 70vh;
+border-radius: 2rem;
+}
+.homeName {
+font-size: 8rem;
+color: #EA999E;
+font-weight:bolder;
+text-decoration: none;
+}
+.homeNameTitle {
+font-size: 8rem;
+color: white;
+font-weight:bolder;
+text-decoration: none;
+
+}
+p {
+    color: white;
+    font-size: 2.5rem
+}
+.verbiageDiv {
+    max-width: 850px;
+}
+
+.mainMainContainer {
+    min-height: 80vh
+}
