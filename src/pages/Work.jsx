@@ -12,11 +12,11 @@ import "../styles/Work.css";
 function WorkExperience() {
   return (
     <>
-      <Container fluid>
+      <Container>
         <Row>
           <Col
             md={5}
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center imageCol"
           >
             <div className = "carouselDiv d-flex justify-content-center">
             <Carousel>
