@@ -18,3 +18,8 @@
     min-height: 10vh;
 }
 
+.errorMessage {
+    color: red;
+    margin-top: .5rem;
+    margin-left:.5rem;
+}

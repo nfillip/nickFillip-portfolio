@@ -8,6 +8,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './NavBar.css'
 
+import ContactForm from '../ContactForm/ContactForm'
+
 function NavTab() {
     const currentPage = useLocation().pathname;
     return (<>
@@ -34,6 +36,9 @@ function NavTab() {
                 </Nav.Link>
                 <Nav.Link>
                 <Link to = '/Education' className = "navItem"> {currentPage === '/Education'? (<u>Education</u>):(<>Education</>)} </Link>
+                </Nav.Link>
+                <Nav.Link>
+                <ContactForm />
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
