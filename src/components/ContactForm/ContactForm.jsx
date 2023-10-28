@@ -77,6 +77,7 @@ function ContactForm() {
                 value = {email}
                 onChange = {handleInputChange}
                 className = "errorBox"
+                name = "user_email"
               />
             {errorMessage && (<p className = "errorMessage">{errorMessage}</p>)}
             </Form.Group>
@@ -85,19 +86,19 @@ function ContactForm() {
               controlId="exampleForm.ControlTextarea1"
             >
               <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows={3} type = "text" onChange = {handleInputChange} />
+              <Form.Control name = "message" as="textarea" rows={3} type = "text" onChange = {handleInputChange} />
             </Form.Group>
           </Form>
 
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Cancel
           </Button>
           {errorMessage ? (<Button disabled variant="primary" onClick={!errorMessage && sendEmail}>
-            Save Changes
+            Send Email
           </Button>) : (<Button variant="primary" onClick={!errorMessage && sendEmail}>
-            Save Changes
+            Send Email
           </Button>)}
 
         </Modal.Footer>
