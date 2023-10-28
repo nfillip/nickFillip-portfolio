@@ -1,0 +1,56 @@
+
+.singleVerbiageDiv{
+    background: var(--picBlue);
+    border: .5rem solid var(--pink);
+    border-radius: 2rem;
+    padding: 2rem;
+    max-height: 80vh;
+}
+.singleProjectTitle {
+    font-size: 8em;
+    color: var(--darkPink)
+}
+.singleUl{
+    font-size: 5rem;
+    color: var(--pink);
+    padding: 0px;;
+
+}
+.singleLi{
+    color: white;
+    list-style: none;
+    font-size: 3rem;
+
+}
+.singleButtonDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleButtonW {
+    background: var(--darkPink);
+    font-size: 2rem;
+}
+
+.singleButtonG {
+    background: var(--picBlue);
+    font-size: 2rem;
+    border: .2rem solid var(--pink)
+}
+
+.singleButtonG:hover{
+    background: var(--blue);
+
+}
+.singleButtonW:hover {
+    background: var(--pink);
+}
+.singleImage {
+    border: .5rem solid var(--picBlue);
+    border-radius: 2rem;
+    height: 80vh;
+}
+.singleProjectImageDiv{
+    padding: 2rem;
+}

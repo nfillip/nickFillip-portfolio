@@ -1,0 +1,56 @@
+.projectCardCol{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.projectsTitle{
+    font-size: 6rem;
+    text-align: center;
+    color: var(--pink);
+    background: var(--darkBlue);
+    border-radius: 2rem;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.projectsTitleDiv{
+    display:flex;
+    justify-content:center;
+   
+}
+.projectCardMain {
+
+    border: .4rem solid var(--darkPink);
+    background: rgb(241, 212, 217)
+    
+}
+.projectCardImage{
+    border-bottom: .4rem solid var(--darkPink)
+}
+.projectsCardTitle{
+    font-size: 2.5rem;
+    font-weight:bolder;
+}
+
+.projectsCardAbout{
+    font-size: 1.5rem;
+    height: 3.5rem;
+}
+
+.projectCardBWeb {
+    background: var(--darkPink);
+    border: none;
+}
+.projectCardBMore {
+    background: var(--picBlue);
+    border: none;
+}
+.projectCardBMore:hover, .projectCardBWeb:hover {
+    opacity: .4
+}
+.projectCardButtonDiv {
+    display: flex;
+    justify-content: space-between;
+}
+/* @media (width<) {
+    
+} */

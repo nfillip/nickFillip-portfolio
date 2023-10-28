@@ -18,19 +18,22 @@ function NavTab() {
             <Navbar.Collapse id="basic-navbar-nav" >
               <Nav className="me-auto">
                 <Nav.Link>
-                <Link to = '/' className ="navItem">Home </Link>
+                <Link to = '/' className ="navItem">
+                  {currentPage === '/'? (<u>Home</u>):(<>Home</>)}
+                  </Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to = '/Projects' className = "navItem">Projects </Link>
+                <Link to = '/Projects' className = "navItem">{currentPage === '/Projects'? (<u>Projects</u>):(<>Projects</>)} </Link>
+                
                 </Nav.Link>
                 <Nav.Link>
-                <Link to = '/About' className = "navItem"> About </Link>
+                <Link to = '/About' className = "navItem"> {currentPage === '/About'? (<u>About</u>):(<>About</>)} </Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to = '/WorkExperience' className = "navItem">Work-Experience </Link>
+                <Link to = '/WorkExperience' className = "navItem">{currentPage === '/Work'? (<u>Work-Experience</u>):(<>Work-Experience</>)} </Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to = '/Education' className = "navItem"> Education </Link>
+                <Link to = '/Education' className = "navItem"> {currentPage === '/Education'? (<u>Education</u>):(<>Education</>)} </Link>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

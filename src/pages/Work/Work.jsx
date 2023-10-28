@@ -12,7 +12,7 @@ import "./Work.css";
 function WorkExperience() {
   return (
     <>
-      <Container fluid>
+      <Container fluid className = "workContainer">
         <Row>
           
           <Col
@@ -20,17 +20,19 @@ function WorkExperience() {
             className="d-flex justify-content-center align-items-center workImageCol"
           >
   
-            <Carousel fade>
+            <Image className = "workPics" src={workPic} fluid />
+            {/* <Carousel>
               <Carousel.Item>
-              <Image className = "workPics" src={workPic} />
+              <Image className = "workPics" src={workPic} fluid />
               </Carousel.Item>
               <Carousel.Item>
-              <Image className = "workPics"  src={tyedye} />
+              <Image className = "workPics"  src={tyedye} fluid />
               </Carousel.Item>
               <Carousel.Item>
-              <Image className = "workPics"  src={pepsico} />
+              <Image className = "workPics"  src={pepsico} fluid/>
               </Carousel.Item>
-            </Carousel>
+            </Carousel> */}
+
           </Col>
           <Col
             md={7}

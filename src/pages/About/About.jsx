@@ -21,7 +21,7 @@ function About() {
                         <li className = "aboutListItem">Email: <a className = "aboutAnchor"target = "_blank" href = "mailto:nick.m.fillip@gmail.com">nick.m.fillip@gmail.com</a></li>
                     </ul>
                     <ul className = "aboutUl"> <u>Get to know me:</u>
-                        <p className = "aboutP">I like pugs, long walks on the beach, and playing volleyball.</p>
+                        <p className = "aboutP">I am very hard working, a great team player and work efficiently under pressure. I love pugs, hiking, volleyball, and skiing. A perfect day for me is spending time with friends or family while doing an activity or spot we all enjoy.</p>
                     </ul>
                     </div>
                 </Col>

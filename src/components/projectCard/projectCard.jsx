@@ -1,23 +1,44 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
+import {useNavigate} from "react-router-dom"
+import './ProjectCard.css'
+function ProjectCard({project}) {
+    const {title, about, skills, image, website, imageLong, description, myRole, githubRepo} = project
+    const navigate = useNavigate();
+    const singleProjectPage = (project) => {
+        navigate('/SingleProject', {state: project})
+    
+    }
 
-
-
-function projectCard() {
   return (<>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card className = "projectCardMain">
+
+      <Card.Img variant="top" src= {image} className = "projectCardImage" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        <Card.Title className = "projectsCardTitle">{title}</Card.Title>
+        <Card.Text className = "projectsCardAbout">
+          {about}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Text className="projectsCardAbout"> <u>HighLight Skills:</u> {skills[0]} - {skills[1]} - {skills[2]}
+      </Card.Text>
+        {website ? (<>
+        <div className = "projectCardButtonDiv">
+        <a href = {website} target = "_blank">
+            <Button className = "projectCardBWeb"variant="primary">Go to website</Button>
+        </a>
+            <Button onClick = {() => singleProjectPage(project)}className = "projectCardBMore"variant="primary">Learn More</Button>
+
+        </div>
+        
+        </>):(<><div className = "projectCardButtonDiv d-flex justify-content-end">
+            <Button onClick = {() => singleProjectPage(project)}className = "projectCardBMore"variant="primary">Learn More</Button>
+        </div></>)}
+        
       </Card.Body>
     </Card>
     </>
   );
 }
 
-export default projectCard;
+export default ProjectCard;

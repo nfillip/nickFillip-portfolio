@@ -7,6 +7,7 @@ import About from './pages/About/About.jsx'
 import WorkExperience from './pages/Work/Work.jsx';
 import Education from './pages/Education/Education.jsx';
 import Projects from './pages/Projects/Projects.jsx';
+import SingleProject from './pages/SingleProject/SingleProject.jsx';
 //style
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/Main.css'
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: 'Projects',
         element: <Projects />
+      },
+      {
+        path: 'SingleProject',
+        element: <SingleProject />
       }
     ],
   },
