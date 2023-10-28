@@ -1,19 +1,19 @@
-u {
+.aboutUl {
     font-size: 6rem;
     color: var(--pink);
     list-style: none;
 
     
 }
-li {
-
+.aboutListItem {
     color: white;
-    text-decoration: none! important;
+    font-size:3rem;
 }
-p {
+.aboutP {
     font-size: 2.5rem;
+    color: white;
 }
-.verbiageDiv {
+.aboutVerbiageDiv {
     border: .2rem solid var(--pink);
     border-radius: 2rem
 }
@@ -23,13 +23,13 @@ p {
     border-radius: 2rem;
 }
 
-a {
+.aboutAnchor {
     text-decoration: none;
     color: var(--pink);
     font-size: 3rem;
 }
 
-a:hover {
+.aboutAnchor:hover {
     text-decoration: underline;
     color: var(--darkPink)
 

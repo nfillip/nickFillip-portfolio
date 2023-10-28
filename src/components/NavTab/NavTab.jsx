@@ -6,25 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import '../styles/NavBar.css'
-// const styles = {
-//   nav: {
-//     border: ".2rem solid red",
-//     width: "100%"
-//   },
-//   name: {
-//     fontSize: "4rem"
-//   },
-//   h1Main: {
+import './NavBar.css'
 
-//     fontSize: "6rem",
-//     color: "white"
-//   },
-//   h2Main: {
-//     fontSize: "2rem",
-//     color: "black"
-//   }
-// }
 function NavTab() {
     const currentPage = useLocation().pathname;
     return (<>
@@ -35,19 +18,19 @@ function NavTab() {
             <Navbar.Collapse id="basic-navbar-nav" >
               <Nav className="me-auto">
                 <Nav.Link>
-                <Link to = '/' className = {"navItem"}>Home </Link>
+                <Link to = '/' className ="navItem">Home </Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to = '/Projects' className = {"navItem"}>Projects </Link>
+                <Link to = '/Projects' className = "navItem">Projects </Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to = '/About' className = {"navItem"}> About </Link>
+                <Link to = '/About' className = "navItem"> About </Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to = '/WorkExperience' className = {"navItem"}>Work-Experience </Link>
+                <Link to = '/WorkExperience' className = "navItem">Work-Experience </Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to = '/Education' className = {"navItem"}> Education </Link>
+                <Link to = '/Education' className = "navItem"> Education </Link>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

@@ -6,9 +6,6 @@
     opacity: .5;
 }
 
-.anchorref {
-    color: blue;
-}
 .iconCol {
     display: flex;
     justify-content: center;

@@ -1,19 +1,15 @@
-h1 {
+.workCompany {
     font-size: 6rem;
     color: var(--pink);
     /* text-decoration: underline */
 }
-h2 {
+.workLocation {
     font-size: 4rem;
     color: var(--pink);
    
 }
-h3 {
-    font-size: 3rem;
-    color: var(--pink);
-    text-decoration: underline
-}
-ul {
+
+.workUl {
     font-size: 2.5rem;
     color: var(--pink);
     list-style: none;
@@ -23,18 +19,20 @@ ul {
     margin: 0px
     
 }
-li {
+.workLi {
     font-size: 2rem;
     color: white;
     padding-left: 2rem;
    
 }
-p {
+.workSum {
     font-size: 2.5rem;
+    color: white;
 }
-.verbiageDiv {
+.workVerbiageDiv {
     border: .2rem solid var(--pink);
-    border-radius: 2rem
+    border-radius: 2rem;
+    margin-right: 2rem;
 }
 
 .carouselPic {
@@ -43,40 +41,32 @@ p {
     border-radius: 2rem;
 }
 
-a {
-    text-decoration: none;
-    color: var(--pink)
-}
-
-a:hover {
-    text-decoration: underline;
-    color: var(--darkPink)
+.workPics {
+    height: 80vh;
+    border-radius: 3rem;
 
 }
+
 .listItem {
     text-decoration: none;
     
 }
-.resumeButton {
+
+.workResumeButton {
     background-color: var(--pink);
     min-width: 20rem;
     min-height: 3rem;
     margin-top: 2rem;
     font-size: 2rem;
     border-radius: 1rem;
+    border:none;
 }
-.resumeButton:hover {
+.workResumeButton:hover {
     scale: 1.1;
     background-color: var(--darkPink);
 }
 
-.carouselDiv {
-    border-color: green;
-    border-style: solid;
-    border-width: 0px;
-    margin-right: 3rem;
-    /* width: 600px; */
-}
-.imageCol {
-    border: .2rem solid red;
-}
+/* .workImageCol {
+ border: .2rem solid red;
+} */
+

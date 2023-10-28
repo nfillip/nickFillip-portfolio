@@ -2,10 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
-import Home from './pages/Home.jsx'
-import About from './pages/About.jsx'
-import WorkExperience from './pages/Work.jsx';
-import Education from './pages/Education.jsx'
+import Home from './pages/Home/Home.jsx'
+import About from './pages/About/About.jsx'
+import WorkExperience from './pages/Work/Work.jsx';
+import Education from './pages/Education/Education.jsx';
+import Projects from './pages/Projects/Projects.jsx';
 //style
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/Main.css'
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '/Education',
         element: <Education />
+      },
+      {
+        path: 'Projects',
+        element: <Projects />
       }
     ],
   },

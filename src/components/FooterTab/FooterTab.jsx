@@ -7,13 +7,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import jsIcon from "../assets/icons/node.png"
-import expressIcon from "../assets/icons/express-js.png"
-import mongoDB from "../assets/icons/mongoDB.png"
-import mySQL from "../assets/icons/mysql.png"
-import reactLogo from "../assets/icons/reactLogo.png"
-import graphQL from "../assets/icons/graphQL.png"
-import '../styles/FooterBar.css';
+import jsIcon from "../../assets/icons/node.png"
+import expressIcon from "../../assets/icons/express-js.png"
+import mongoDB from "../../assets/icons/mongoDB.png"
+import mySQL from "../../assets/icons/mysql.png"
+import reactLogo from "../../assets/icons/reactLogo.png"
+import graphQL from "../../assets/icons/graphQL.png"
+import './FooterBar.css';
 function FooterTab() {
     const currentPage = useLocation().pathname;
     return (<>
