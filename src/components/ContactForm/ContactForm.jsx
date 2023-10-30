@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import Image from 'react-bootstrap/Image';
 import {Link, useLocation} from 'react-router-dom';
-import linkedin from "../../assets/icons/linkedIn.png"
+import linkedin from "../../assets/icons/linkedin.png"
 
 import {validateEmail} from '../../utils/validators'
 import '../NavTab/NavBar.css'
