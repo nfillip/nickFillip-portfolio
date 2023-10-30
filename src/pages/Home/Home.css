@@ -61,58 +61,58 @@ font-weight:bolder;
 
 @media (width < 992px) {
    #bs-override-home .profilePic {
-        max-height: 20rem;
-        margin-top: 1rem;
+        max-height: 20rem!important;
+        margin-top: 1rem!important;
     }
     #bs-override-home .homeContainer {
-        height: 81vh;
-        width: 100%;
+        height: 81vh!important;
+        width: 100%!important;
     }
     #bs-override-home .homeVerbiageDiv {
-        min-height: auto;
-        background: none;
-        padding-left: 0px;
+        min-height: auto!important;
+        background: none!important;
+        padding-left: 0px!important;
 
     }
     #bs-override-home .homeRow{
-        border: .2rem solid var(--darkPink);
-        padding: 1rem;
-        background: var(--darkBlue);
-        border-radius: 2rem;
+        border: .2rem solid var(--darkPink)!important;
+        padding: 1rem!important;
+        background: var(--darkBlue)!important;
+        border-radius: 2rem!important;
     }
     #bs-override-home .mainImageCol {
-        justify-content: start;
-        margin-left: 2rem;
-        margin-bottom: 0rem;
+        justify-content: start!important;
+        margin-left: 2rem!important;
+        margin-bottom: 0rem!important;
         
     }
     #bs-override-home .homeNameTitle, .homeName {
-        font-size: 5rem;
+        font-size: 5rem!important;
     }
 }
 
 @media (width<700px) {
     #bs-override-home .homeName, #bs-override-home .homeNameTitle {
-        font-size: 2.5rem;
+        font-size: 2.5rem!important;
     }
-    #bs-override-home .homeNameTitle {
-        font-size: 2.2rem;
+    #bs-override-home .homeNameTitle  {
+        font-size: 2.2rem!important;
     }
     #bs-override-home .homeContainer {
-    height: 81vh;
+    height: 81vh!important;
     }
     #bs-override-home .elevatorPitch {
-        font-size: 1.5rem;
+        font-size: 1.5rem!important;
     }
     #bs-override-home .homeResumeButton {
-        font-size: 2rem;
+        font-size: 2rem!important;
     }
     #bs-override-home .profilePic {
-        max-height: 15rem;
+        max-height: 15rem!important;
     }
     #bs-override-home .iconImage {
-        height: 6rem;
-        width: 6rem;
+        height: 6rem!important;
+        width: 6rem!important;
     }
 
 }
