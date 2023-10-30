@@ -13,7 +13,7 @@ import ContactForm from '../ContactForm/ContactForm'
 function NavTab() {
     const currentPage = useLocation().pathname;
     return (<>
-        <Navbar expand="lg" className = "navMainDiv navContainer" >
+        <Navbar expand="lg" className = "navMainDiv navContainer" id = "bootstrap-override-NavTab">
           <Container  className = "navContainer" >
             <div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className = "navbar-dark" />

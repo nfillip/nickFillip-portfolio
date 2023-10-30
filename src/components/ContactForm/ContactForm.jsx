@@ -75,7 +75,7 @@ function ContactForm() {
        Contact-Me
       </div>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} id = "bootstrap-override">
         <Modal.Header closeButton>
           <Modal.Title>Email Me!</Modal.Title>
         </Modal.Header>

@@ -23,8 +23,8 @@
   margin-left: 0.5rem;
 }
 
-.errorBorder {
-  border: 0.2rem solid red !important;
+#bootstrap-override .errorBorder {
+  border: 0.2rem solid red;
 }
 
 .submitButtonEmail {
@@ -35,7 +35,7 @@
   background: rgb(140, 47, 62) !important;
 }
 
-.navContainer {
+#bootstrap-override-NavTab .navContainer {
   display: flex;
   justify-content: end;
 }
@@ -45,7 +45,7 @@
 }
 
 @media (width<1000px) {
-  .navContainer {
-    justify-content: start !important;
+  #bootstrap-override-NavTab .navContainer {
+    justify-content: start
   }
 }
