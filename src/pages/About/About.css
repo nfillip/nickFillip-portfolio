@@ -1,73 +1,68 @@
 .aboutUl {
-    font-size: 6rem;
-    color: var(--pink);
-    list-style: none;
-
-    
+  font-size: 6rem;
+  color: var(--pink);
+  list-style: none;
 }
 .aboutListItem {
-    color: white;
-    font-size:3rem;
+  color: white;
+  font-size: 3rem;
 }
 .aboutP {
-    font-size: 2.5rem;
-    color: white;
+  font-size: 2.5rem;
+  color: white;
 }
 .aboutVerbiageDiv {
-    border: .2rem solid var(--pink);
-    border-radius: 2rem;
-    background: var(--darkBlue)
+  border: 0.2rem solid var(--pink);
+  border-radius: 2rem;
+  background: var(--darkBlue);
 }
 
 .pugPic {
-    height: 80vh;
-    border-radius: 2rem;
+  height: 80vh;
+  border-radius: 2rem;
 }
 
 .aboutAnchor {
-    text-decoration: none;
-    color: var(--pink);
-    font-size: 3rem;
+  text-decoration: none;
+  color: var(--pink);
+  font-size: 3rem;
 }
 
 .aboutAnchor:hover {
-    text-decoration: underline;
-    color: var(--darkPink)
-
+  text-decoration: underline;
+  color: var(--darkPink);
 }
 .pageMainContainer {
-    width: 95vw;
+  width: 95vw;
 }
-.aboutHide{
-    display: none;
-    font-size: 6rem;
-    color: var(--pink)
+.aboutHide {
+  display: none;
+  font-size: 6rem;
+  color: var(--pink);
 }
-@media(width <996px){
-    .aboutHide{
-        display: block;
-    }
+@media (width <996px) {
+  .aboutHide {
+    display: block;
+  }
 }
-@media(width<700px) {
-    .aboutUl {
-       font-size: 4rem;
-    }
-
-
+@media (width<700px) {
+  .aboutUl {
+    font-size: 4rem;
+  }
 }
 
-@media(width<600px) {
-    .pugPic {
-        height: 78vh;
-        width: auto;
-        margin-bottom: 2rem;
-    }
-    .aboutAnchor, .aboutListItem,.aboutP{
-        font-size: 2rem;
-    }
-    .aboutUl {
-        font-size: 3.5rem;
-    }
-
-    
+@media (width<600px) {
+  .pugPic {
+    height: 78vh;
+    width: auto;
+    margin-bottom: 2rem;
+  }
+  .aboutAnchor,
+  .aboutListItem,
+  .aboutP {
+    font-size: 2rem;
+  }
+  .aboutUl {
+    font-size: 3.5rem;
+  }
 }

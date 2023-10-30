@@ -1,54 +1,51 @@
-
 :root {
-    --pink: #ea999e;
-    --darkPink: #a56b6f;
-    --darkBlue: #02142d;
-      --picBlue: #031E44;
-   }
+  --pink: #ea999e;
+  --darkPink: #a56b6f;
+  --darkBlue: #02142d;
+  --picBlue: #031e44;
+}
 .navItem {
-    text-decoration: none;
-    color: white;
-    font-size: 2.5rem;
-    padding-left: 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  padding-left: 2rem;
 }
 .navItem:hover {
-    color: var(--pink);
+  color: var(--pink);
 }
 .navMainDiv {
-    min-height: 10vh;
+  min-height: 10vh;
 }
 
 .errorMessage {
-    color: red;
-    margin-top: .5rem;
-    margin-left:.5rem;
+  color: red;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .errorBorder {
-    border: .2rem solid red !important
+  border: 0.2rem solid red !important;
 }
 
 .submitButtonEmail {
-    background: var(--pink) !important;
-    border: none !important
-
+  background: var(--pink) !important;
+  border: none !important;
 }
 .submitButtonEmail:hover {
-    background: var(--darkPink) !important
+  background: var(--darkPink) !important;
 }
 
 .navContainer {
-    display: flex;
-    justify-content: end !important;
-
+  display: flex;
+  justify-content: end !important;
 }
 .linkedIn {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 @media (width<1000px) {
-    .navContainer {
-        justify-content: start !important;
-    }
+  .navContainer {
+    justify-content: start !important;
+  }
 }
