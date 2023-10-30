@@ -15,10 +15,10 @@ function SingleProject() {
         <>
         <Container fluid className = "singleProjectMain">
              <Row>
-		        <Col md = {5} className = "d-flex justify-content-center align-items-center singleProjectImageDiv">
+		        <Col lg = {5} md = {12} className = "d-flex justify-content-center align-items-center singleProjectImageDiv">
                 <Image className = "singleImage"src={imageLong} fluid />
                 </Col>
-		        <Col md = {7} className = "d-flex align-items-start flex-column justify-content-center"  >
+		        <Col lg = {7} md = {12} className = "d-flex align-items-start flex-column justify-content-center"  >
                     <div className = "d-flex align-items-start flex-column justify-content-center singleVerbiageDiv">
                         <h1 className = "singleProjectTitle">{title}</h1>
                         <ul className = "singleUl"><u>Description</u>

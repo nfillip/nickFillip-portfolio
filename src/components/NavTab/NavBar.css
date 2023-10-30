@@ -23,3 +23,32 @@
     margin-top: .5rem;
     margin-left:.5rem;
 }
+
+.errorBorder {
+    border: .2rem solid red !important
+}
+
+.submitButtonEmail {
+    background: var(--pink) !important;
+    border: none !important
+
+}
+.submitButtonEmail:hover {
+    background: var(--darkPink) !important
+}
+
+.navContainer {
+    display: flex;
+    justify-content: end !important;
+
+}
+.linkedIn {
+    height: 40px;
+    width: 40px;
+}
+
+@media (width<1000px) {
+    .navContainer {
+        justify-content: start !important;
+    }
+}

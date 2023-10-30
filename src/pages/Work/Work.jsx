@@ -16,10 +16,11 @@ function WorkExperience() {
         <Row>
           
           <Col
-            md={5}
-            className="d-flex justify-content-center align-items-center workImageCol"
+            lg={5}
+            className="d-flex flex-column justify-content-center align-items-center workImageCol"
           >
-  
+            <h1 className = "workCompany workHide">Anheuser-Busch</h1>
+            <h2 className = "workLocation workHide">Fort Collins Brewery</h2>
             <Image className = "workPics" src={workPic} fluid />
             {/* <Carousel>
               <Carousel.Item>
@@ -35,7 +36,7 @@ function WorkExperience() {
 
           </Col>
           <Col
-            md={7}
+            lg={7}
             className="d-flex align-items-start flex-column justify-content-center workImageCol"
           >
             <div className="d-flex align-items-start flex-column justify-content-center p-5 workVerbiageDiv">

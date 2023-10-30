@@ -8,13 +8,14 @@ import './About.css'
 function About() {
     return (
         <>
-        <Container fluid>
+        <Container fluid className = "pageMainContainer">
             <Row>
-		        <Col md = {5} className = "d-flex justify-content-center align-items-center">
+		        <Col lg = {5} className = "d-flex justify-content-center flex-column align-items-center">
+                    <h1 className = "aboutHide">About Me</h1>
                 <Image className = "pugPic" src={pugPic} fluid />
                 </Col>
-		        <Col md = {7} className = "d-flex align-items-start flex-column justify-content-center"  >
-                    <div className = "d-flex align-items-start flex-column justify-content-center p-5 aboutVerbiageDiv">
+		        <Col lg = {7} className = "d-flex align-items-start flex-column justify-content-center"  >
+                    <div className = "d-flex align-items-start flex-column justify-content-center p-3 aboutVerbiageDiv">
                     <ul className = "aboutUl"> <u>My Links:</u>
                         <li className = "aboutListItem">Github: <a  className = "aboutAnchor" target = "_blank" href = "https://github.com/nfillip">/nfillip</a></li>
                         <li className = "aboutListItem"> LinkedIn: <a  className = "aboutAnchor" target = "_blank" href = "https://www.linkedin.com/in/nicholas-fillip/">/nicholas-fillip/</a></li>

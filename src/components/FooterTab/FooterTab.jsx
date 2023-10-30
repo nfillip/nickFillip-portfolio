@@ -19,22 +19,22 @@ function FooterTab() {
     return (<>
           <Container fluid className = "footerContainer" >
             <Row className = "justify-content-end me-4">
-              <Col lg = {1} md = {2} sm = {4} xs ={4}  className = "iconCol" >
-              <a href = "https://nodejs.org/en/about"> <Image src = {reactLogo} className = "iconImage" /></a></Col>
-              <Col lg = {1} md = {2} sm = {4} xs ={4} className = "iconCol" >
-              <a href = "https://nodejs.org/en/about"> <Image src = {jsIcon} className = "iconImage" /></a>
+              <Col lg = {1} md = {2} sm = {2} xs ={2}  className = "iconCol" >
+              <a target = "_blank" href = "https://nodejs.org/en/about"> <Image src = {reactLogo} className = "iconImage" /></a></Col>
+              <Col lg = {1} md = {2} sm = {2} xs ={2} className = "iconCol" >
+              <a target = "_blank" href = "https://nodejs.org/en/about"> <Image src = {jsIcon} className = "iconImage" /></a>
               </Col>
-              <Col lg = {1} md = {2} sm = {4} xs ={4} className = "iconCol" >
-              <a href = "https://www.mongodb.com/"> <Image src = {mongoDB} className = "iconImage" /></a>
+              <Col lg = {1} md = {2} sm = {2} xs ={2} className = "iconCol" >
+              <a target = "_blank" href = "https://www.mongodb.com/"> <Image src = {mongoDB} className = "iconImage" /></a>
               </Col>
-              <Col lg = {1} md = {2} sm = {4} xs ={4} className = "iconCol">
-              <a href = "https://www.mysql.com/"> <Image src = {mySQL} className = "iconImage" /></a>
+              <Col lg = {1} md = {2} sm = {2} xs ={2} className = "iconCol">
+              <a target = "_blank" href = "https://www.mysql.com/"> <Image src = {mySQL} className = "iconImage" /></a>
               </Col>
-              <Col lg = {1} md = {2} sm = {4} xs ={4}  className = "iconCol" >
-              <a href = "https://expressjs.com/"> <Image src = {expressIcon} className = "iconImage" /></a>
+              <Col lg = {1} md = {2} sm = {2} xs ={2}  className = "iconCol" >
+              <a target = "_blank" href = "https://expressjs.com/"> <Image src = {expressIcon} className = "iconImage" /></a>
               </Col>
-              <Col lg = {1} md = {2} sm = {4}xs ={4} className = "iconCol" >
-              <a href = "https://graphql.org/"> <Image src = {graphQL} className = "iconImage" /></a>
+              <Col lg = {1} md = {2} sm = {2}xs ={2} className = "iconCol" >
+              <a target = "_blank" href = "https://graphql.org/"> <Image src = {graphQL} className = "iconImage" /></a>
               </Col>
             </Row>
             <div>

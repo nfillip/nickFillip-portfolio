@@ -95,7 +95,7 @@ const cardInfo = [
 function Projects() {
   return (
     <>
-      <Container fluid>
+      <Container fluid className = "projectContainer">
         <div className = "projectsTitleDiv">
             <h1 className = "projectsTitle">My Projects</h1>
         </div>

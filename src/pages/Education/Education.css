@@ -1,3 +1,6 @@
+.eduContainer{
+    width: 95vw;
+}
 .schoolName {
     font-size: 6rem;
     color: var(--pink)
@@ -15,13 +18,86 @@
     width: 90%;
     border-radius: 2rem;
     border: 2rem solid var(--picBlue);
-
-
+}
+.eduImageCol{
 }
 .eduVerbiageDi {
-    height: 80vh; 
-    border: .2rem solid var(--pink);
-    border-radius: 2rem;
+
     padding:2rem;
+    border: .2rem solid var(--pink);
+    background: var(--darkBlue);
+    border-radius: 2rem;
     
 }
+.eduVerbiageCol{
+    min-height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.eduHide {
+    display:none;
+    font-size: 6rem;
+    color: var(--pink)
+}
+@media (width<992px){
+    .eduImageCol{
+        margin-bottom: 1rem;
+        height: 40vh;
+    }
+    .utPic {
+        max-height: 30vh;
+        width: auto; 
+    }
+    .eduHide {
+        display: block;
+        font-size: 4.5rem;
+    }
+    .schoolName{
+        font-size:3rem;
+    }
+    .degreeName{
+        font-size: 2rem;
+    }
+    .eduVerbiageCol{
+        min-height: 40vh;
+        align-items: center !important;
+        justify-content: center;
+     }
+    .eduVerbiageDi{
+        width: 95vw;
+        height: 100%;
+    }
+      .utlogo{
+        width: 150px;
+    }
+}
+@media (width<500px){
+    .utPic{
+        height:30vh;
+        margin:0px;
+        width: auto;
+    }
+    .eduHide {
+        font-size: 5rem;
+    }
+    .utlogo {
+        width: 100px;
+    }
+    .schoolName{
+        font-size: 2.0rem;
+    }
+    .degreeName{
+        font-size: 1.5rem;
+    }
+    .eduVerbiageCol{
+        height: 40vh;
+        width: 95vw;
+    }
+ }
+ @media(width<370px){
+    .utPic{
+        height: 25vh;
+    }
+ }

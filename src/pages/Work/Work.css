@@ -1,3 +1,6 @@
+.workContainer {
+    width: 95vw;
+}
 .workCompany {
     font-size: 6rem;
     color: var(--pink);
@@ -32,7 +35,7 @@
 .workVerbiageDiv {
     border: .2rem solid var(--pink);
     border-radius: 2rem;
-    margin-right: 2rem;
+    background: var(--darkBlue);
 }
 
 .carouselPicDiv {
@@ -64,8 +67,43 @@
     scale: 1.1;
     background-color: var(--darkPink);
 }
-
+.workHide {
+    display: none;
+}
 /* .workImageCol {
  border: .2rem solid red;
 } */
-
+@media (width<992px){
+    .workPics {
+        height: 100%;
+        max-height: 75vh;
+        margin-bottom: 2rem;
+        
+    }
+    .workHide {
+        display:block;
+    }
+    .workCompany {
+        font-size: 5.5rem;
+    }
+    .workImageCol {
+        height: 90vh;
+    }
+}
+@media (width<500px){
+    .workCompany {
+        font-size: 3rem;
+    }
+    .workLocation{
+        font-size: 2.5rem;
+    }
+    .workSum, .workLi {
+       font-size: 2rem;
+    }
+    .workUl {
+        font-size: 2.2rem;
+    }
+    .workImageCol {
+        height:auto;
+    }
+}

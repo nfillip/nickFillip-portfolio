@@ -12,18 +12,19 @@ import "./Education.css";
 function Education() {
   return (
     <>
-      <Container fluid>
+      <Container fluid className = "eduContainer d-flex justify-content-center">
         <Row>
           <Col
-            md={5}
-            className="d-flex justify-content-center align-items-center"
+            lg={5}
+            className="d-flex justify-content-center align-items-center flex-column eduImageCol"
           >
+              <h1 className ="eduHide">Education</h1>
               <Image src={utPic} fluid className ="utPic" />
        
           </Col>
           <Col
-            md={7}
-            className="d-flex align-items-start flex-column justify-content-center pe-5"
+            lg={7}
+            className="eduVerbiageCol"
           >
             <div className = "eduVerbiageDi d-flex flex-column justify-content-center">
                 <div className = "d-flex justify-content-around">

@@ -11,8 +11,5 @@
     justify-content: center;
 }
 .footerContainer {
-    /* position: relative;
-    left:0px;
-    bottom: 0px; */
-    min-height: 10vh;
+    height: 10vh;
 }

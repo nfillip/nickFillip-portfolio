@@ -1,17 +1,21 @@
-
+.singleProjectMain {
+    width: 95vw;
+    min-height: 80vh;
+}
 .singleVerbiageDiv{
     background: var(--picBlue);
     border: .5rem solid var(--pink);
     border-radius: 2rem;
     padding: 2rem;
-    max-height: 80vh;
+
 }
 .singleProjectTitle {
-    font-size: 8em;
-    color: var(--darkPink)
+
+    font-size: 6rem;
+    color: var(--pink)
 }
 .singleUl{
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--pink);
     padding: 0px;;
 
@@ -19,7 +23,7 @@
 .singleLi{
     color: white;
     list-style: none;
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 .singleButtonDiv {
@@ -54,3 +58,5 @@
 .singleProjectImageDiv{
     padding: 2rem;
 }
+
+@media (width<)

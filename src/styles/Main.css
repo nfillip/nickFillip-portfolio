@@ -12,8 +12,12 @@
    background: linear-gradient(260deg, #02142d 70%, #EA999E 70%);
    box-sizing: border-box;
    font-family: 'Nunito', sans-serif;
+   padding: 0px;
+   margin: 0px;
  }
-
+.pageMainContainer {
+  width: 95vw;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

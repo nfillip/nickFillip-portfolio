@@ -15,7 +15,8 @@
 }
 .aboutVerbiageDiv {
     border: .2rem solid var(--pink);
-    border-radius: 2rem
+    border-radius: 2rem;
+    background: var(--darkBlue)
 }
 
 .pugPic {
@@ -33,4 +34,40 @@
     text-decoration: underline;
     color: var(--darkPink)
 
+}
+.pageMainContainer {
+    width: 95vw;
+}
+.aboutHide{
+    display: none;
+    font-size: 6rem;
+    color: var(--pink)
+}
+@media(width <996px){
+    .aboutHide{
+        display: block;
+    }
+}
+@media(width<700px) {
+    .aboutUl {
+       font-size: 4rem;
+    }
+
+
+}
+
+@media(width<600px) {
+    .pugPic {
+        height: 78vh;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    .aboutAnchor, .aboutListItem,.aboutP{
+        font-size: 2rem;
+    }
+    .aboutUl {
+        font-size: 3.5rem;
+    }
+
+    
 }

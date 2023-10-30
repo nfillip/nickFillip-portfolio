@@ -13,10 +13,10 @@ import ContactForm from '../ContactForm/ContactForm'
 function NavTab() {
     const currentPage = useLocation().pathname;
     return (<>
-        <Navbar expand="lg" className = "navMainDiv" >
-          <Container  className = "d-flex justify-content-end text-align-right" >
+        <Navbar expand="lg" className = "navMainDiv navContainer" >
+          <Container  className = "navContainer" >
             <div>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" className = "navbar-dark text-align-right justify-content-end" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className = "navbar-dark" />
             <Navbar.Collapse id="basic-navbar-nav" >
               <Nav className="me-auto">
                 <Nav.Link>
