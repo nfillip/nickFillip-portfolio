@@ -57,6 +57,7 @@ Github Profile: [https://github.com/nfillip](https://github.com/nfillip)
 
 ## Website
 Github Repo: [https://github.com/nfillip/nickFillip-portfolio](https://github.com/nfillip/nickFillip-portfolio)<br>
+Netlify Website Link: [https://nick-fillip-portfolio.netlify.app/](https://nick-fillip-portfolio.netlify.app/)
 ![Screenshot of VideoWalkthrough](./src/assets/images/projectsImages/portfolio.jpg)
 
 
