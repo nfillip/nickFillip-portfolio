@@ -13,7 +13,7 @@ import './Home.css'
 function Home() {
     return (
         <>
-        <Container className="homeContainer" fluid >
+        <Container className="homeContainer" fluid id = "bs-override-home">
             <Row className = "homeRow">
 		        <Col lg = {5} md = {12}  className = "mainImageCol">
                 <Image className = "profilePic" src={profilePic} fluid />

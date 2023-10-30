@@ -27,12 +27,12 @@
   border: 0.2rem solid red;
 }
 
-.submitButtonEmail {
-  background: var(--darkPink) !important;
-  border: none !important;
+#override-contact .submitButtonEmail {
+  background: var(--darkPink);
+  
 }
-.submitButtonEmail:hover {
-  background: rgb(140, 47, 62) !important;
+#override-contact .submitButtonEmail:hover {
+  background: rgb(140, 47, 62)
 }
 
 #bootstrap-override-NavTab .navContainer {
@@ -46,6 +46,6 @@
 
 @media (width<1000px) {
   #bootstrap-override-NavTab .navContainer {
-    justify-content: start
+    justify-content: start;
   }
 }

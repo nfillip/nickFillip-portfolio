@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavTab />
-      <main>
+      <main id = "bs-override">
         <Outlet />
       </main>
       <FooterTab />

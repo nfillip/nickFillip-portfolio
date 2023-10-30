@@ -60,57 +60,57 @@ font-weight:bolder;
 }
 
 @media (width < 992px) {
-    .profilePic {
+   #bs-override-home .profilePic {
         max-height: 20rem;
         margin-top: 1rem;
     }
-    .homeContainer {
+    #bs-override-home .homeContainer {
         height: 81vh;
         width: 100%;
     }
-    .homeVerbiageDiv {
+    #bs-override-home .homeVerbiageDiv {
         min-height: auto;
         background: none;
         padding-left: 0px;
 
     }
-    .homeRow{
+    #bs-override-home .homeRow{
         border: .2rem solid var(--darkPink);
         padding: 1rem;
         background: var(--darkBlue);
         border-radius: 2rem;
     }
-    .mainImageCol {
+    #bs-override-home .mainImageCol {
         justify-content: start;
         margin-left: 2rem;
         margin-bottom: 0rem;
         
     }
-    .homeNameTitle, .homeName {
+    #bs-override-home .homeNameTitle, .homeName {
         font-size: 5rem;
     }
 }
 
 @media (width<700px) {
-    .homeName, .homeNameTitle {
+    #bs-override-home .homeName, #bs-override-home .homeNameTitle {
         font-size: 2.5rem;
     }
-    .homeNameTitle {
+    #bs-override-home .homeNameTitle {
         font-size: 2.2rem;
     }
-    .homeContainer {
+    #bs-override-home .homeContainer {
     height: 81vh;
     }
-    .elevatorPitch {
+    #bs-override-home .elevatorPitch {
         font-size: 1.5rem;
     }
-    .homeResumeButton {
+    #bs-override-home .homeResumeButton {
         font-size: 2rem;
     }
-    .profilePic {
+    #bs-override-home .profilePic {
         max-height: 15rem;
     }
-    .iconImage {
+    #bs-override-home .iconImage {
         height: 6rem;
         width: 6rem;
     }
