@@ -26,13 +26,16 @@ font-weight:bolder;
     color: white;
     font-size: 2.5rem
 }
+.mainVerbiageDiv {
+    min-height: 80vh;
+}
 .homeVerbiageDiv {
     max-width: 850px;
     min-height: 80vh;
     background: var(--darkBlue);
     border-radius: 2rem;
-    margin: 2rem;
     padding-top: 0px;
+    padding-left: 2rem;
 }
 
 .mainImageCol{
@@ -52,7 +55,9 @@ font-weight:bolder;
     border-radius: 1rem;
     border:none;
 }
-
+.homeResumeButton:hover {
+    background-color: var(--darkPink);
+}
 
 @media (width < 992px) {
     .profilePic {
@@ -66,10 +71,12 @@ font-weight:bolder;
     .homeVerbiageDiv {
         min-height: auto;
         background: none;
+        padding-left: 0px;
 
     }
     .homeRow{
         border: .2rem solid var(--darkPink);
+        padding: 1rem;
         background: var(--darkBlue);
         border-radius: 2rem;
     }
