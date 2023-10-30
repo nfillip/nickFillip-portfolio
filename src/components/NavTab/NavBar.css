@@ -28,11 +28,11 @@
 }
 
 .submitButtonEmail {
-  background: var(--pink) !important;
+  background: var(--darkPink) !important;
   border: none !important;
 }
 .submitButtonEmail:hover {
-  background: var(--darkPink) !important;
+  background: rgb(140, 47, 62) !important;
 }
 
 .navContainer {
