@@ -37,7 +37,7 @@
 
 .navContainer {
   display: flex;
-  justify-content: end !important;
+  justify-content: end;
 }
 .linkedIn {
   height: 40px;
