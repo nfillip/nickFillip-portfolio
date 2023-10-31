@@ -45,7 +45,7 @@
 }
 
 @media (width<1000px) {
-  #bootstrap-override-NavTab .navContainer {
+.navContainer {
     justify-content: start!important
   }
 }
