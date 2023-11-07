@@ -119,9 +119,6 @@ function ContactForm() {
           </Button>) : (<Button variant="primary" onClick={!errorMessage && sendEmail} className = "submitButtonEmail">
             Send Email
           </Button>)}
-
-
-
         </Modal.Footer>
       </Modal>
     </div>

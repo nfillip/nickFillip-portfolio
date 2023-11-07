@@ -16,6 +16,8 @@ import myPortfolio from '../../assets/images/projectsImages/portfolio.jpg'
 import socialMediaDB from '../../assets/images/projectsImages/social-network.jpg'
 import noteTaker from '../../assets/images/projectsImages/note-taker.jpg'
 import jsQuiz from '../../assets/images/projectsImages/javascriptQuiz.jpg'
+import snif from '../../assets/images/projectsImages/snif.jpg'
+import snifLong from '../../assets/images/projectsImages/snifLong.jpg'
 
 //vertical images
 import devRowLong from '../../assets/images/projectsImages/devRowLong.jpg';
@@ -28,6 +30,16 @@ import quizLong from '../../assets/images/projectsImages/quizlong.jpg'
 import "./Project.css";
 
 const cardInfo = [
+    {   title: 'Snif',
+        about: '(Full Stack) - Tinder For Dogs/playdates',
+        skills: ['REACT', 'GraphQL', 'Tailwind CSS','express', 'node.js', 'javaScript', 'CSS', 'HTML', 'Git'],
+        image: snif,
+        imageLong: snifLong,
+        website: "https://stormy-mesa-49272-df30e734d644.herokuapp.com/",
+        description: "Match with other users and their pets to grant chat access to then allow for play-dates/meetups.",
+        myRole: "Full Stack - server connection, resolver/typdefs GraphQL, Chat page, front end styling",
+        githubRepo: "https://github.com/nlad218/dog-dating-app"
+    },
     {   title: 'Dev Row Records',
         about: '(Full Stack) Mock record label',
         skills: ['express.js', 'mySQL', 'sequelize', 'node.js', 'javaScript', 'CSS', 'HTML', 'Git'],
@@ -54,7 +66,7 @@ const cardInfo = [
         skills: ['REACT', 'node.js', 'CSS'],
         image: myPortfolio,
         imageLong: portfolioLong,
-        website: "https://dev-row-records-63d750921ea0.herokuapp.com/",
+        website: "https://nick-fillip-portfolio.netlify.app/",
         description: "Welcome to the Dev Row Records online music platform, where you can discover and support the talented artists represented by our record label. This platform provides an interactive and engaging experience for users to explore artists, albums, merchandise, and more.",
         myRole: "Solo App",
         githubRepo: "https://github.com/nfillip/nickFillip-portfolio"
@@ -80,16 +92,6 @@ const cardInfo = [
         githubRepo: "https://github.com/nfillip/note-take-express.js"
     },
     
-    {   title: 'JS Fundamentals Quiz',
-        about: '(Front End) - algorithm/DOM traverse proficiency',
-        skills: ['javaScript', 'DOM traversal', 'HTML'],
-        image: jsQuiz,
-        imageLong: quizLong,
-        website: "https://nfillip.github.io/js-fundamentals-quiz1",
-        description: "A website that gives a short quiz on JS fundamentals.Display my ability to utilize the DOM structure, understand algorithms, and utilize localStorage.",
-        myRole: "Solo App",
-        githubRepo: "https://github.com/nfillip/js-fundamentals-quiz1"
-    },
 ]
 
 function Projects() {
