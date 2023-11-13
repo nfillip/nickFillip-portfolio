@@ -17,7 +17,7 @@ import socialMediaDB from '../../assets/images/projectsImages/social-network.jpg
 import noteTaker from '../../assets/images/projectsImages/note-taker.jpg'
 import jsQuiz from '../../assets/images/projectsImages/javascriptQuiz.jpg'
 import snif from '../../assets/images/projectsImages/snif.jpg'
-import snifLong from '../../assets/images/projectsImages/snifLong.jpg'
+import snifLong from '../../assets/images/projectsImages/sniflong.jpg'
 
 //vertical images
 import devRowLong from '../../assets/images/projectsImages/devRowLong.jpg';
