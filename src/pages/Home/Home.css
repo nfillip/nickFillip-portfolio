@@ -59,6 +59,18 @@ font-weight:bolder;
     background-color: var(--darkPink);
 }
 
+@media (width<1500px) {
+    .homeName, .homeNameTitle {
+        font-size: 6rem;
+
+    }
+}
+@media (width<1200px){
+    .homeName, .homeNameTitle {
+        font-size: 5rem;
+
+    }
+}
 @media (width < 992px) {
     .profilePic {
         max-height: 20rem;

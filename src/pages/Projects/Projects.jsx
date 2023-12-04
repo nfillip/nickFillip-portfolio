@@ -26,13 +26,25 @@ import portfolioLong from '../../assets/images/projectsImages/portfoliolong.jpg'
 import socialLong from '../../assets/images/projectsImages/socialnetlong.jpg'
 import noteTakeLong from '../../assets/images/projectsImages/note-takelong.jpg';
 import quizLong from '../../assets/images/projectsImages/quizlong.jpg'
+import focoFun from '../../assets/images/projectsImages/focofun.jpg'
+import focoFunLong from '../../assets/images/projectsImages/focofunlong.jpg'
 //local CSS
 import "./Project.css";
 
 const cardInfo = [
+    {   title: 'FoCo Fun',
+        about: "(Full Stack) Fort Collins activity review and social networking site. In this Yelp clone, you'll post, like, save, blog, make friends, live chat",
+        skills: ['React', 'Express', 'Node', 'GraphQL', 'MaterialUI', ],
+        image: focoFun,
+        imageLong: focoFunLong,
+        website: "https://foco-fun-ea270e6a24d7.herokuapp.com/",
+        description: "Back End application that allows for database manipulation through mongoDB, mongoose, compass.",
+        myRole: "Solo App",
+        githubRepo: "https://github.com/nfillip/fort-collins-top-todos"
+    },
     {   title: 'Snif',
         about: '(Full Stack) - Tinder For Dogs/playdates',
-        skills: ['REACT', 'GraphQL', 'Tailwind CSS','express', 'node.js', 'javaScript', 'CSS', 'HTML', 'Git'],
+        skills: ['React', 'GraphQL', 'Tailwind CSS','Express', 'Node', 'JavaScript', 'CSS', 'HTML', 'Git'],
         image: snif,
         imageLong: snifLong,
         website: "https://stormy-mesa-49272-df30e734d644.herokuapp.com/",
@@ -42,7 +54,7 @@ const cardInfo = [
     },
     {   title: 'Dev Row Records',
         about: '(Full Stack) Mock record label',
-        skills: ['express.js', 'mySQL', 'sequelize', 'node.js', 'javaScript', 'CSS', 'HTML', 'Git'],
+        skills: ['Express', 'mySQL', 'sequelize', 'Node', 'JavaScript', 'CSS', 'HTML', 'Git'],
         image: devRow,
         imageLong: devRowLong,
         website: "https://dev-row-records-63d750921ea0.herokuapp.com/",
@@ -63,7 +75,7 @@ const cardInfo = [
     },
     {   title: 'My Portfolio',
         about: "(Full Stack) - Take a look at the guts; I'm proud of it!",
-        skills: ['REACT', 'node.js', 'CSS'],
+        skills: ['React', 'Node', 'JavaScript', 'CSS'],
         image: myPortfolio,
         imageLong: portfolioLong,
         website: "https://nick-fillip-portfolio.netlify.app/",
@@ -71,19 +83,9 @@ const cardInfo = [
         myRole: "Solo App",
         githubRepo: "https://github.com/nfillip/nickFillip-portfolio"
     }, 
-    {   title: 'Social Network Database',
-        about: '(Back End) - Display my proficiency in mongoDB',
-        skills: ['mongoDB', 'express.js', 'node.JS'],
-        image: socialMediaDB,
-        imageLong: socialLong,
-        website: null,
-        description: "Back End application that allows for database manipulation through mongoDB, mongoose, compass.",
-        myRole: "Solo App",
-        githubRepo: "https://github.com/nfillip/social-network-mongoDB"
-    },
     {   title: 'Note Taker',
         about: '(Full Stack) - Note taking website',
-        skills: ['express.js', 'node.js', 'javaScript'],
+        skills: ['Express', 'Node', 'JavaScript'],
         image: noteTaker,
         imageLong: noteTakeLong,
         website: "https://note-take-express-js-8f46d967182f.herokuapp.com/",

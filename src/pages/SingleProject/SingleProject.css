@@ -1,6 +1,7 @@
 .singleProjectMain {
     width: 95vw;
     min-height: 80vh;
+    display: flex
 }
 .singleVerbiageDiv{
     background: var(--picBlue);
@@ -53,7 +54,8 @@
 .singleImage {
     border: .5rem solid var(--picBlue);
     border-radius: 2rem;
-    height: 80vh;
+    max-height: 80vh;
+    width: auto
 }
 .singleProjectImageDiv{
     padding: 2rem;
