@@ -33,12 +33,12 @@ import "./Project.css";
 
 const cardInfo = [
     {   title: 'FoCo Fun',
-        about: "(Full Stack) Fort Collins activity review and social networking site. In this Yelp clone, you'll post, like, save, blog, make friends, live chat",
+        about: "(Full Stack) Fort Collins activity review and social networking site.",
         skills: ['React', 'Express', 'Node', 'GraphQL', 'MaterialUI', ],
         image: focoFun,
         imageLong: focoFunLong,
         website: "https://foco-fun-ea270e6a24d7.herokuapp.com/",
-        description: "Back End application that allows for database manipulation through mongoDB, mongoose, compass.",
+        description: "(Full Stack) Fort Collins activity review and social networking site. In this Yelp clone, you'll post, like, save, blog, make friends, live text chat",
         myRole: "Solo App",
         githubRepo: "https://github.com/nfillip/fort-collins-top-todos"
     },
